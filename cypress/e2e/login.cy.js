@@ -16,17 +16,6 @@ describe('Testing Login', () => {
         LoginPage.displayErrorMessage()
     })
 
-    // it('User clicks on Sign-in button', () => {
-    //     NavBar.clickSignIn()
-    // })
-
-    // it('User enters invalid login credentials', () => {
-    //     LoginPage.login('invalid username', 'invalid password')
-    // })
-
-    // it('Verify Error message must be displayed', () => {
-    //     LoginPage.displayErrorMessage()
-    // })
 
     it('Testing login with valid credentials', () => {
         NavBar.clickSignIn()
@@ -36,31 +25,3 @@ describe('Testing Login', () => {
         cy.validURL('index.html')
     })
 })
-
-// describe('Testing Login with valid credentials', () => {
-//     before(function () {
-//         cy.visit(url)
-
-//         cy.validURL('index.html')
-//     })
-
-//     it('User clicks on Sign-in button', () => {
-//         NavBar.clickSignIn()
-//     })
-
-//     it('User enters valid login credentials', () => {
-//         LoginPage.login(login_username, login_password)
-//     })
-
-//     it('Verify user has successfully logged in', () => {
-//         AccountSummaryPage.checkLoginSuccess()
-//     })
-
-//     it('User then logs-out', () => {
-//         NavBar.userLogout()
-//     })
-
-//     it('Verify user has logged out', () => {
-//         cy.validURL('index.html')
-//     })
-// })
