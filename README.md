@@ -1,7 +1,7 @@
 # CypressPractice-PageObjectModel_AllureReporters
 Implementing Automation Testing using cypress with Page Object Model and Allure Reporter to generate HTML reports
 
-## Prequisites
+## Pre-requisites
 
 * Node version 16 or above.
 * Java version@latest for Allure Test Reporter
